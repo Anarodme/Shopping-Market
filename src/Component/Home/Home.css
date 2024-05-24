@@ -1,0 +1,91 @@
+/* Estilos CSS */
+/* ... */
+
+/* Media Queries */
+@media (max-width: 767px) {
+    /* Pantallas pequeñas de móviles */
+    .container {
+      padding: 0 10px;
+    }
+  
+    .header,
+    .navbar,
+    .display-section,
+    .feature-products,
+    .advertisement,
+    .top-sell,
+    .blog,
+    .brands,
+    .footer {
+      padding: 10px;
+    }
+  
+    .flex-container {
+      flex-direction: column;
+    }
+  
+    .col-1,
+    .col-2 {
+      width: 100%;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 1023px) {
+    /* Pantallas medianas */
+    .container {
+      padding: 0 20px;
+    }
+  
+    .header,
+    .navbar,
+    .display-section,
+    .feature-products,
+    .advertisement,
+    .top-sell,
+    .blog,
+    .brands,
+    .footer {
+      padding: 20px;
+    }
+  
+    .flex-container {
+      flex-wrap: wrap;
+    }
+  
+    .col-1,
+    .col-2 {
+      width: 50%;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    /* Pantallas grandes */
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+  
+    .header,
+    .navbar,
+    .display-section,
+    .feature-products,
+    .advertisement,
+    .top-sell,
+    .blog,
+    .brands,
+    .footer {
+      padding: 30px;
+    }
+  
+    .flex-container {
+      display: flex;
+    }
+  
+    .col-1 {
+      width: 60%;
+    }
+  
+    .col-2 {
+      width: 40%;
+    }
+  }

@@ -1,50 +1,64 @@
+/* Estilos CSS */
 .blog-cont-img img {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .blog-cont-img:hover .blogImg {
-    background-color: #000;
+  background-color: #000;
 }
 
 .blog-cont-img:hover img {
-    opacity: .5;
+  opacity: 0.5;
 }
 
-/* Dispositivos pequeños (hasta 576px) */
-@media (max-width: 576px) {
+/* Media Queries */
+@media (max-width: 767px) {
+  /* Pantallas pequeñas de móviles */
+  .mx-\\\[320px\\\] {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .flex {
+    flex-direction: column;
+  }
+
+  .w-1\/2 {
+    width: 100%;
+  }
+
+  .p-\\\[80px\\\] {
+    padding: 20px;
+  }
+
   .blog-cont-img {
     width: 100%;
     height: auto;
   }
-
-  .blog-cont-img img {
-    width: 100%;
-    height: auto;
-  }
 }
 
-/* Dispositivos medianos (576px a 992px) */
-@media (min-width: 576px) and (max-width: 992px) {
+@media (min-width: 768px) and (max-width: 1023px) {
+  /* Pantallas medianas */
+  .mx-\\\[320px\\\] {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
   .blog-cont-img {
     width: 400px;
-    height: auto;
-  }
-
-  .blog-cont-img img {
-    width: 100%;
-    height: auto;
+    height: 250px;
   }
 }
 
-/* Dispositivos grandes (desde 992px) */
-@media (min-width: 992px) {
+@media (min-width: 1024px) {
+  /* Pantallas grandes */
+  .mx-\\\[320px\\\] {
+    margin-left: 320px;
+    margin-right: 320px;
+  }
+
   .blog-cont-img {
     width: 572px;
     height: 354px;
-  }
-
-  .blog-cont-img img {
-    width: 100%;
-    height: 100%;
   }
 }
