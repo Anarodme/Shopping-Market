@@ -164,3 +164,209 @@ figure {
     width: 80%;
     background: #79980D;
 }
+
+/* Dispositivos pequeños (hasta 576px) */
+@media (max-width: 576px) {
+    .mx-\[320px\] {
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+  
+    .display-first-section img {
+      max-width: 100%;
+      height: auto;
+    }
+  
+    .content-sec-one {
+      right: 10px;
+      top: 50px;
+    }
+  
+    .content-sec-one h2 {
+      font-size: 24px;
+    }
+  
+    .content-sec-one h1 {
+      font-size: 50px;
+      line-height: 40px;
+    }
+  
+    .content-sec-one h3 {
+      font-size: 30px;
+      line-height: 40px;
+    }
+  
+    .shop-now-btn {
+      margin-left: 0 !important;
+    }
+  
+    .content-section-two,
+    .content-section-three {
+      position: static;
+      text-align: center;
+      margin-top: 20px;
+    }
+  
+    .content-section-two h1,
+    .content-section-three h1 {
+      font-size: 40px;
+      line-height: 40px;
+    }
+  
+    .content-section-two h2,
+    .content-section-three h2 {
+      font-size: 30px;
+      line-height: 30px;
+    }
+  
+    figure {
+      width: 100%;
+      height: auto;
+    }
+  
+    .hover05 figure img {
+      margin-top: 0;
+      margin-left: 0;
+      transform: none;
+    }
+  
+    .sub-section {
+      flex-direction: column;
+      gap: 40px;
+    }
+  
+    .sub-section-cont {
+      min-height: auto;
+    }
+  
+    .main-section {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+  
+  /* Dispositivos medianos (576px a 992px) */
+  @media (min-width: 576px) and (max-width: 992px) {
+    .mx-\[320px\] {
+      margin-left: 100px;
+      margin-right: 100px;
+    }
+  
+    .content-sec-one {
+      right: 20px;
+      top: 80px;
+    }
+  
+    .content-sec-one h2 {
+      font-size: 32px;
+    }
+  
+    .content-sec-one h1 {
+      font-size: 70px;
+      line-height: 50px;
+    }
+  
+    .content-sec-one h3 {
+      font-size: 40px;
+      line-height: 60px;
+    }
+  
+    .content-section-two,
+    .content-section-three {
+      left: 20px;
+      top: 30px;
+    }
+  
+    .content-section-two h1,
+    .content-section-three h1 {
+      font-size: 60px;
+      line-height: 50px;
+    }
+  
+    .content-section-two h2,
+    .content-section-three h2 {
+      font-size: 26px;
+      line-height: 28px;
+    }
+  
+    figure {
+      width: 350px;
+      height: 250px;
+    }
+  
+    .hover05 figure img {
+      margin-top: 20px;
+      margin-left: 40px;
+      transform: scale(1.2);
+    }
+  
+    .sub-section {
+      gap: 40px;
+    }
+  }
+  
+  /* Dispositivos grandes (desde 992px) */
+  @media (min-width: 992px) {
+    .content-sec-one {
+      right: 30px;
+      top: 110px;
+    }
+  
+    .content-sec-one h2 {
+      font-size: 38px;
+    }
+  
+    .content-sec-one h1 {
+      font-size: 100px;
+      line-height: 65px;
+    }
+  
+    .content-sec-one h3 {
+      font-size: 45px;
+      line-height: 70px;
+    }
+  
+    .content-section-two {
+      left: 30px;
+      top: 40px;
+    }
+  
+    .content-section-two h1 {
+      font-size: 82px;
+      line-height: 70px;
+    }
+  
+    .content-section-two h2 {
+      font-size: 32px;
+      line-height: 30px;
+    }
+  
+    .content-section-three {
+      bottom: 40px;
+    }
+  
+    .content-section-three h1 {
+      font-size: 82px;
+      line-height: 70px;
+    }
+  
+    .content-section-three h2 {
+      font-size: 45px;
+      line-height: 40px;
+    }
+  
+    figure {
+      width: 411px;
+      height: 280px;
+    }
+  
+    .hover05 figure img {
+      margin-top: 50px;
+      margin-left: 100px;
+      transform: scale(1.5);
+    }
+  
+    .sub-section {
+      gap: 80px;
+    }
+  }

@@ -161,3 +161,67 @@
 .hover02 .center-top-img:hover img {
     margin-top: 0;
 }
+
+/* Estilos para pantallas grandes (desktop) */
+.advertisement-container {
+    margin: 76px 320px 0px 320px;
+  }
+  
+ 
+/* Pantallas pequeñas */
+@media (max-width: 767px) {
+    .advertisement-container {
+      margin: 30px 20px 0;
+    }
+  
+    .advertisement-sub-container {
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .cont-img img {
+      width: 200px; /* Ajusta el ancho de la imagen para pantallas pequeñas */
+      height: auto; /* Mantiene la relación de aspecto de la imagen */
+    }
+  
+    .center-top-img,
+    .bottomTwoImg {
+      width: 100%;
+      height: auto;
+    }
+  
+    .hoverImg-content,
+    .center-img-centent,
+    .bottom-img1-content,
+    .right-img-content {
+      position: static;
+      margin-top: 10px;
+    }
+  }
+  
+  /* Pantallas medianas */
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .advertisement-container {
+      margin: 50px 40px 0;
+    }
+  
+    .advertisement-sub-container {
+      gap: 20px;
+    }
+  
+    .cont-img img {
+      width: 250px; /* Ajusta el ancho de la imagen para pantallas medianas */
+      height: auto; /* Mantiene la relación de aspecto de la imagen */
+    }
+  
+    .center-top-img,
+    .bottomTwoImg {
+      width: 100%;
+      height: auto;
+    }
+  }
+  
+  /* Pantallas grandes */
+  @media (min-width: 1025px) {
+    /* No se requieren estilos adicionales */
+  }

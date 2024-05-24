@@ -1,7 +1,30 @@
-.swiper-button-next, .swiper-button-prev{
+/* Estilos generales */
+.swiper-button-next, .swiper-button-prev {
     border: 1px solid #C4E454;
     padding: 30px;
     border-radius: 50%;
     margin: 0px -10px;
     color: #9A9A9A !important;
-}
+    text-align: justify;
+  }
+  
+  /* Pantallas pequeñas */
+  @media (max-width: 767px) {
+    .swiper-button-next, .swiper-button-prev {
+      padding: 20px;
+      margin: 0 -5px;
+    }
+  }
+  
+  /* Pantallas medianas */
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .swiper-button-next, .swiper-button-prev {
+      padding: 25px;
+      margin: 0 -7px;
+    }
+  }
+  
+  /* Pantallas grandes */
+  @media (min-width: 1025px) {
+    /* No se requieren estilos adicionales */
+  }

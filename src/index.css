@@ -17,3 +17,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Dispositivos pequeños (hasta 576px) */
+@media (max-width: 576px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+/* Dispositivos medianos (576px a 992px) */
+@media (min-width: 576px) and (max-width: 992px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+/* Dispositivos grandes (desde 992px) */
+@media (min-width: 992px) {
+  body {
+    font-size: 18px;
+  }
+}

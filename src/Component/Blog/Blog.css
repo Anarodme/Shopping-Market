@@ -9,3 +9,42 @@
 .blog-cont-img:hover img {
     opacity: .5;
 }
+
+/* Dispositivos pequeños (hasta 576px) */
+@media (max-width: 576px) {
+  .blog-cont-img {
+    width: 100%;
+    height: auto;
+  }
+
+  .blog-cont-img img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* Dispositivos medianos (576px a 992px) */
+@media (min-width: 576px) and (max-width: 992px) {
+  .blog-cont-img {
+    width: 400px;
+    height: auto;
+  }
+
+  .blog-cont-img img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* Dispositivos grandes (desde 992px) */
+@media (min-width: 992px) {
+  .blog-cont-img {
+    width: 572px;
+    height: 354px;
+  }
+
+  .blog-cont-img img {
+    width: 100%;
+    height: 100%;
+  }
+}

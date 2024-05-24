@@ -17,3 +17,65 @@
     height: 1px;
     background-color: #C4E454;
 }
+/* Dispositivos pequeños (hasta 576px) */
+@media (max-width: 576px) {
+    .mx-\[300px\] {
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+  
+    .section-title {
+      gap: 10px;
+    }
+  
+    .section-title h1 {
+      font-size: 24px;
+    }
+  
+    .section-line {
+      width: 100px;
+      height: 1px;
+    }
+  }
+  
+  /* Dispositivos medianos (576px a 992px) */
+  @media (min-width: 576px) and (max-width: 992px) {
+    .mx-\[300px\] {
+      margin-left: 100px;
+      margin-right: 100px;
+    }
+  
+    .section-title {
+      gap: 15px;
+    }
+  
+    .section-title h1 {
+      font-size: 30px;
+    }
+  
+    .section-line {
+      width: 150px;
+      height: 1px;
+    }
+  }
+  
+  /* Dispositivos grandes (desde 992px) */
+  @media (min-width: 992px) {
+    .mx-\[300px\] {
+      margin-left: 300px;
+      margin-right: 300px;
+    }
+  
+    .section-title {
+      gap: 20px;
+    }
+  
+    .section-title h1 {
+      font-size: 35px;
+    }
+  
+    .section-line {
+      width: 192px;
+      height: 1px;
+    }
+  }

@@ -1,47 +1,47 @@
-.swiper-button-next,
-.swiper-button-prev {
+/* Estilos generales */
+.swiper-button-next, .swiper-button-prev {
     border: 1px solid #C4E454;
     padding: 30px;
     border-radius: 50%;
     margin: 0px -10px;
     color: #9A9A9A !important;
-}
-
-.hoverIncrease {
+  }
+  
+  .hoverIncrease {
     padding: 20px;
     text-align: center;
     display: grid;
     justify-content: center;
     transition-duration: .3s;
-}
-
-.hoverIncrease img {
+  }
+  
+  .hoverIncrease img {
     height: 220px;
-}
-
-.hoverIncrease .content {
+  }
+  
+  .hoverIncrease .content {
     margin-top: 38px;
-}
-
-.hoverIncrease .content h1 {
+  }
+  
+  .hoverIncrease .content h1 {
     font-size: 20px;
     font-weight: 500;
-}
-
-.hoverIncrease .content h2 {
+  }
+  
+  .hoverIncrease .content h2 {
     font-size: 18px;
     font-weight: 700;
     color: #1E8E02;
-}
-
-.price-underline {
+  }
+  
+  .price-underline {
     width: 57px;
     height: 1px;
     background-color: black;
     margin: 0 auto;
-}
-
-.select-btn {
+  }
+  
+  .select-btn {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -49,8 +49,79 @@
     color: #616161;
     font-weight: 700;
     margin-top: 16px;
-}
-
-.hoverIncrease:hover {
+  }
+  
+  .hoverIncrease:hover {
     transform: scale(1.1);
-}
+  }
+  
+  /* Pantallas pequeñas */
+  @media (max-width: 767px) {
+    .swiper-button-next, .swiper-button-prev {
+      padding: 20px;
+      margin: 0 -5px;
+    }
+  
+    .hoverIncrease {
+      padding: 10px;
+    }
+  
+    .hoverIncrease img {
+      height: 150px;
+    }
+  
+    .hoverIncrease .content {
+      margin-top: 20px;
+    }
+  
+    .hoverIncrease .content h1 {
+      font-size: 16px;
+    }
+  
+    .hoverIncrease .content h2 {
+      font-size: 14px;
+    }
+  
+    .select-btn {
+      font-size: 10px;
+      margin-top: 10px;
+    }
+  }
+  
+  /* Pantallas medianas */
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .swiper-button-next, .swiper-button-prev {
+      padding: 25px;
+      margin: 0 -7px;
+    }
+  
+    .hoverIncrease {
+      padding: 15px;
+    }
+  
+    .hoverIncrease img {
+      height: 180px;
+    }
+  
+    .hoverIncrease .content {
+      margin-top: 25px;
+    }
+  
+    .hoverIncrease .content h1 {
+      font-size: 18px;
+    }
+  
+    .hoverIncrease .content h2 {
+      font-size: 16px;
+    }
+  
+    .select-btn {
+      font-size: 11px;
+      margin-top: 12px;
+    }
+  }
+  
+  /* Pantallas grandes */
+  @media (min-width: 1025px) {
+    /* No se requieren estilos adicionales */
+  }

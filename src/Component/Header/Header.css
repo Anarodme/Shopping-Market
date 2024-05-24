@@ -91,3 +91,56 @@
     background-color: #9ebe2b;
     transform: scale(1.1);
 }
+
+/* Small screens (up to 768px) */
+@media (max-width: 767px) {
+    .header-container {
+      margin: 8px 20px;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .logo-search-cont {
+      flex-direction: column;
+      gap: 20px;
+      margin-bottom: 20px;
+    }
+  
+    .search-cont {
+      width: 100%;
+      max-width: 414px;
+    }
+  
+    .search-cont input {
+      width: calc(100% - 44px);
+    }
+  
+    .contact-social-cont {
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .social-icon-cont {
+      margin-top: 10px;
+    }
+  }
+  
+  /* Medium screens (768px - 1024px) */
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .header-container {
+      margin: 8px 40px 0 40px;
+    }
+  
+    .search-cont {
+      width: 300px;
+    }
+  
+    .search-cont input {
+      width: 236px;
+    }
+  }
+  
+  /* Large screens (1025px and up) */
+  @media (min-width: 1025px) {
+    /* No additional styles needed as the original CSS covers large screens */
+  }
